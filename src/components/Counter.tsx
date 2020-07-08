@@ -4,6 +4,7 @@ interface CounterProps{
     message:string
     count: number
     onClick: any
+    color: any
 }
 // interface CounterState{
 //     count:number
@@ -20,7 +21,7 @@ class Counter extends React.Component<CounterProps> {
 
   render() {
     return (
-      <div className="Hearts" onClick={this.props.onClick}>
+      <div className="Hearts" onClick={this.props.onClick} style={{color:this.props.color}}>
         {this.props.message} {this.props.count}
       </div>
     );
@@ -37,3 +38,4 @@ class Counter extends React.Component<CounterProps> {
 }
 
 export default Counter
+
