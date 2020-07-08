@@ -8,7 +8,7 @@ import Item from './components/Item';
 function App(props:any) {
   return ( //TODO:  Add multiple Card components inside the <Tile> 
            //       Add several Item components to each <Card>
-           //       (see the screenshot for the completed My TNT Exercise)
+           //       (see the screenshot for the completed My TNT Exercise).
     <div>  
       <h1 className="App-header">My TNT</h1>
       <Tile title="Contacts">
@@ -19,7 +19,7 @@ function App(props:any) {
           <Card title="Instructor" description ="Connect on Linkedin to keep in touch" website="http://linkedin.com">
             <Item name="Sylvan Frone" email="sylvan@forest.com"></Item>
           </Card>
-          <Card title="Coach" description ="Incredible upport" website="">
+          <Card title="Coach" description ="Incredible Support" website="">
             <Item name="Nadie Hu" team={16} email="nadia.hu@microsoft.com"></Item>
             <Item name="Sam Stiles" team={16} email="sam.stiles@microsoft.com"></Item>
           </Card>
