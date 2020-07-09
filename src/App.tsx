@@ -7,7 +7,7 @@ import Item from './components/Item';
 
 function App(props:any) {
   return ( //TODO:  Add multiple Card components inside the <Tile> 
-           //       Add several Item components to each <Card>
+           //       Add several Item components to each <Card>.
            //       (see the screenshot for the completed My TNT Exercise).
     <div>  
       <h1 className="App-header">My TNT</h1>
