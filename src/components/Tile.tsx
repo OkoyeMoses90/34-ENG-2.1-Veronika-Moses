@@ -9,9 +9,9 @@ interface TileState{
     count:number
 }
 class Tile extends React.Component<TileProps, TileState>  {
-    constructor(props:TileProps){ //NOTE: this method is called when the Counter is first created; often used to intialize state
+    constructor(props:TileProps){ //NOTE: this method is called when the Counter is first created; often used to intialize state.
         super(props)
-        this.state = {count:0} //CONFIRM: You can set a different initial value for the count and have it display in the browser 
+        this.state = {count:0} //CONFIRM: You can set a different initial value for the count and have it display in the browser .
     }
 
     render() { 

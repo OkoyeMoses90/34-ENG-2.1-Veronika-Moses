@@ -12,7 +12,7 @@ function App(props:any) {
     <div>  
       <h1 className="App-header">My TNT</h1>
       <Tile title="Contacts">
-          <Card title="New technologist" description ="Friends from the TNT program" website="https://newtechnologists.com/">
+          <Card title="New Technologist" description ="Friends from the TNT program" website="https://newtechnologists.com/">
             <Item name="Zara Thomas" team={16} email="zthomas@home.com"></Item>
             <Item name="Mica Lujan" team={29} email="mica.l03@song.com"></Item>
           </Card>
